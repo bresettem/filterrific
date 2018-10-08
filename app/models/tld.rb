@@ -1,0 +1,2 @@
+class Tld < ApplicationRecord
+end

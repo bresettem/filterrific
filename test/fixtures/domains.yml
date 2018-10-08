@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  available: false
+  currency: MyString
+  definitive: false
+  domain: 
+  price: 1
+  score: 1
+  spacer: MyString
+  tld: MyString
+  typ: MyString
+
+two:
+  available: false
+  currency: MyString
+  definitive: false
+  domain: 
+  price: 1
+  score: 1
+  spacer: MyString
+  tld: MyString
+  typ: MyString
