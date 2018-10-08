@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.0.0'
+gem 'rails', '5.0.2'
 
 gem 'bootstrap-datepicker-rails'
 gem 'bootstrap-sass'
@@ -9,7 +9,7 @@ gem 'filterrific' #, path: '../filterrific'
 gem 'haml-rails'
 gem 'jbuilder'
 gem 'jquery-rails'
-gem 'pg'
+gem 'pg', '~> 0.21'
 gem 'random_data'
 gem 'thin'
 gem 'turbolinks'
