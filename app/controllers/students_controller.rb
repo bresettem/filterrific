@@ -4,9 +4,9 @@ class StudentsController < ApplicationController
     @filterrific = initialize_filterrific(
       Student,
       params[:filterrific],
-      :select_options => {
-        sorted_by: Student.options_for_sorted_by,
-        with_country_id: Country.options_for_select
+      select_options: {
+          sorted_by:       Student.options_for_sorted_by,
+          with_country_id: Country.options_for_select
       }
     ) or return
     @students = @filterrific.find.page(params[:page])
